@@ -9,5 +9,7 @@ async function init() {
       document.querySelector("#continue-btn").classList.add("d-none")
     }
   }
-}
+};
+
+
 
