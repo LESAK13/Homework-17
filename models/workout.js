@@ -6,7 +6,7 @@ const workoutSchema = new Schema({
   day: { type: Date, default: () => new Date() },
   exercises: [
     {
-      type: { type: String },
+      type: { type: String, trim: true, required: "Choose resistance of cardio style workout"},
       name: { type: String },
       duration: { type: Number },
       weight: { type: Number },
